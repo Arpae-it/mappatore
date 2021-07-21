@@ -12,9 +12,9 @@ platforms:
 categories:
   - data-visualization
 
-developmentStatus: development
+developmentStatus: stable
 
-softwareType: "standalone R+Shiny"
+softwareType: "standalone/web"
 
 description:
   en:

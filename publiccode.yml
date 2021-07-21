@@ -1,60 +1,65 @@
-publiccodeYmlVersion: "0.2"
+# This repository adheres to the publiccode.yml standard by including this 
+# metadata file that makes public software easily discoverable.
+# More info at https://github.com/italia/publiccode.yml
 
+publiccodeYmlVersion: '0.2'
+categories:
+  - data-visualization
+description:
+  en:
+    features:
+      - Show different WMS services at the same time
+      - Convert coordinates between WGS84 and UTM32
+      - Draw polygons and lines and make measures
+      - Reverse georeferencing
+    genericName: R + Shiny app
+    localisedName: mappatore
+    longDescription: |
+      Mappatore is a simple and fast Shiny interface written in R used mainly to
+      show public WMS services. The simple code is very easily editable to add
+      more WMS services. It also allows the user to upload a kml file and plot
+      it along with the already shown WMS layers. The main use is to provide a
+      very fast and simple small online GIS that can also be used in the field
+      by all the operators who need a map on the fly with different reference
+      layers. It also provides a very simple way to translate coordinates from
+      geographical (WGS84) to UTM32. When used in the field from a smartphone or
+      tablet it automatically brings the user to his/her position and it can be
+      used to reverse georeference any point on the fly. An implementation of it
+      is available freely at: https://arpae.shinyapps.io/mappatore/
+    shortDescription: |
+      A simple and fast Shiny interface written in R that can be used to show
+      some public WMS services along with a minimal set of drawing tools
+developmentStatus: stable
+it:
+  conforme:
+    gdpr: false
+    lineeGuidaDesign: false
+    misureMinimeSicurezza: false
+    modelloInteroperabilita: false
+  countryExtensionVersion: '0.2'
+  piattaforme:
+    anpr: false
+    cie: false
+    pagopa: false
+    spid: false
+  riuso:
+    codiceIPA: arpa
+legal:
+  license: AGPL-3.0-or-later
+localisation:
+  availableLanguages:
+    - en
+  localisationReady: false
+maintenance:
+  contacts:
+    - name: Paolo Veronesi
+  type: community
 name: mappatore
-url: "https://github.com/Arpae-it/mappatore"
-softwareVersion: "dev"    # Optional
-releaseDate: "2021-07-21"
 platforms:
   - linux
   - windows
   - mac
-
-categories:
-  - data-visualization
-
-developmentStatus: stable
-
-softwareType: "standalone/web"
-
-description:
-  en:
-    localisedName: mappatore   # Optional
-    genericName: R + Shiny app
-    shortDescription: >
-         A simple and fast Shiny interface written in R that can be used to show some public WMS services along with a minimal set of drawing tools
-    longDescription: >
-        Mappatore is a simple and fast Shiny interface written in R used mainly to show public WMS services. The simple code is very easily editable to add more WMS services.
-        It also allows the user to upload a kml file and plot it along with the already shown WMS layers.
-        The main use is to provide a very fast and simple small online GIS that can also be used in the field by all the operators
-        who need a map on the fly with different reference layers.
-        It also provides a very simple way to translate coordinates from geographical (WGS84) to UTM32.
-        When used in the field from a smartphone or tablet it automatically brings the user to his/her position and it can be used to reverse georeference any point on the fly.
-        An implementation of it is available freely at:
-        https://arpae.shinyapps.io/mappatore/
-        
-    features:
-       - Show different WMS services at the same time
-       - Convert coordinates between WGS84 and UTM32
-       - Draw polygons and lines and make measures
-       - Reverse georeferencing
-
-legal:
-  license: AGPL-3.0-or-later
-
-maintenance:
-  type: "community"
-
-  contacts:
-    - name: Paolo Veronesi
-
-localisation:
-  localisationReady: yes
-  availableLanguages:
-    - en
-    
-it:
-  countryExtensionVersion: '0.2'
-  riuso:
-    codiceIPA: arpa
-  
- 
+releaseDate: '2021-07-21'
+softwareType: standalone/web
+softwareVersion: dev
+url: 'https://github.com/Arpae-it/mappatore'

@@ -8,9 +8,9 @@ categories:
 description:
   en:
     features:
-      - Show different WMS services at the same time
-      - Convert coordinates between WGS84 and UTM32
-      - Draw polygons and lines and make measures
+      - Showing different WMS services at the same time
+      - Converting coordinates between WGS84 and UTM32
+      - Drawing polygons and lines and make measures
       - Reverse georeferencing
     genericName: R + Shiny app
     localisedName: mappatore

@@ -37,6 +37,9 @@ it:
     misureMinimeSicurezza: false
     modelloInteroperabilita: false
   countryExtensionVersion: '0.2'
+  screenshots:
+      - >-
+        screenshot.png
   piattaforme:
     anpr: false
     cie: false

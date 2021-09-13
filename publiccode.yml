@@ -29,6 +29,8 @@ description:
     shortDescription: |
       A simple and fast Shiny interface written in R that can be used to show
       some public WMS services along with a minimal set of drawing tools
+    screenshots:
+      - screenshot.png
 developmentStatus: stable
 it:
   conforme:
@@ -37,9 +39,7 @@ it:
     misureMinimeSicurezza: false
     modelloInteroperabilita: false
   countryExtensionVersion: '0.2'
-  screenshots:
-      - >-
-        screenshot.png
+  
   piattaforme:
     anpr: false
     cie: false
